@@ -1,0 +1,40 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/frontend/vault/node_modules
+/frontend/vault/.pnp
+/frontend/vault/.pnp.js
+
+# testing
+/frontend/vault/coverage
+
+# next.js
+/frontend/vault/.next/
+/frontend/vault/out/
+
+# production
+/frontend/vault/build
+
+# misc
+/frontend/vault/.DS_Store
+/frontend/vault/*.pem
+
+# debug
+/frontend/vault/npm-debug.log*
+/frontend/vault/yarn-debug.log*
+/frontend/vault/yarn-error.log*
+
+# local env files
+/frontend/vault/.env.local
+/frontend/vault/.env.development.local
+/frontend/vault/.env.test.local
+/frontend/vault/.env.production.local
+
+# vercel
+/frontend/vault/.vercel
+
+# typescript
+/frontend/vault/*.tsbuildinfo
+
+
+/backend/db.sqlite3
